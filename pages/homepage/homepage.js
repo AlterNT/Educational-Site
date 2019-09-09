@@ -171,7 +171,7 @@ export class PaperHomePage extends HTMLElement {
         }`;
         let html = `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <div class="title">
-            <video src="../../src/videos/title.mp4" width="100%" height="80%" autoplay loop></video>
+            <video src="https://nathanphillis.github.io/Educational-Site/src/videos/title.mp4" width="100%" height="80%" autoplay loop></video>
             <h1>Welcome!</h1>
             <p>
                 We invite you to browse the only place on the web where you can find an large amount of resources related to the hobby of papercraft.
@@ -196,19 +196,19 @@ export class PaperHomePage extends HTMLElement {
             <div class="gallery">
                 <div>
                     <a href="http://axmpaperspacescalemodels.com/index.php/falcon-9/product/Falcon%20Heavy%20Demo%20Flight/?">
-                        <img src="../../src/images/showcase/s1.jpg" draggable="false">
+                        <img src="https://nathanphillis.github.io/Educational-Site/src/images/showcase/s1.jpg" draggable="false">
                         Falcon Heavy
                     </a>
                 </div>
                 <div>
                     <a href="http://paper-replika.com/index.php%3Foption=com_content&id=8536:ford-mustang-gt-death-race-paper-model&Itemid=206374">
-                        <img src="../../src/images/showcase/s2.jpg" draggable="false">
+                        <img src="https://nathanphillis.github.io/Educational-Site/src/images/showcase/s2.jpg" draggable="false">
                         Death Race Ford Mustang
                     </a>
                 </div>
                 <div>
                     <a href="https://creativepark.canon/en/contents/CNT-0024525/index.html">
-                        <img src="../../src/images/showcase/s3.jpg" draggable="false">
+                        <img src="https://nathanphillis.github.io/Educational-Site/src/images/showcase/s3.jpg" draggable="false">
                         Curiosity Rover
                     </a>
                 </div>
