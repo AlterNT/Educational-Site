@@ -8,8 +8,8 @@ export class PaperHomePage extends HTMLElement {
 
     init() {
         //replace with async in futre
-        let css = FileManagementSystem.loadFile("../../pages/homepage/homepage.css");
-        let html = FileManagementSystem.loadFile("../../pages/homepage/homepage.html")
+        let css = FileManagementSystem.loadFile("https://nathanphillis.github.io/Educational-Site/pages/homepage/homepage.css");
+        let html = FileManagementSystem.loadFile("https://nathanphillis.github.io/Educational-Site//pages/homepage/homepage.html")
         let shadow = this.attachShadow({mode: 'open'});
         shadow.innerHTML = "<style>" + css + "</style>" + html;
 
@@ -21,11 +21,11 @@ export class PaperHomePage extends HTMLElement {
     //loop
     pos = 0;
     images = [
-        "../../src/images/loop/1.jpg",
-        "../../src/images/loop/2.jpg",
-        "../../src/images/loop/3.jpg",
-        "../../src/images/loop/4.jpg",
-        "../../src/images/loop/5.jpg",
+        "https://nathanphillis.github.io/Educational-Site//src/images/loop/1.jpg",
+        "https://nathanphillis.github.io/Educational-Site//src/images/loop/2.jpg",
+        "https://nathanphillis.github.io/Educational-Site//src/images/loop/3.jpg",
+        "https://nathanphillis.github.io/Educational-Site//src/images/loop/4.jpg",
+        "https://nathanphillis.github.io/Educational-Site//src/images/loop/5.jpg",
     ]
 
     back() {
