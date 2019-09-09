@@ -1,0 +1,129 @@
+body {
+    background-color: #d5d6e3;
+    font-family: 'Questrial', sans-serif;
+    margin: 0;
+}
+
+.frame {
+    display: flex;
+    position: sticky;
+    top: -4rem;
+    align-items: center;
+    justify-items: center;
+    flex-flow: row wrap;
+    height: auto;
+    background-color: #25274d;
+}
+
+.frame div {
+    display: flex;
+    align-self: flex-start;
+    height: 4rem;
+    font-size: 2rem;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.frame div i {
+    color: #2e9cca;
+}
+
+.frame ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 2rem;
+    width: 100%;
+    z-index: -1;
+}
+
+.frame ul li {
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: inherit;
+    max-width: 10rem;
+}
+
+.frame ul li button {
+    background: transparent;
+    justify-items: center;
+    border: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 1.2rem;  
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.frame ul li button::before {
+    content: "";
+    display: block;
+    position: relative;
+    background-color: #d5d6e3;
+    margin: calc(-0.5rem + 4px) 0 -1.5rem 0;
+    clip-path: polygon(15% 0, 0 100%, 100% 100%, 85% 0%);
+    box-sizing: border-box;
+    border: 1px solid #2e9cca;
+    border-top: none;
+    
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+.frame ul li button:hover::before {
+    background-color: #c1c8e4;
+    transition: background-color 0.2s ease;
+}
+
+.frame ul li button:active::before {
+    background-color: white;
+    transition-duration: 0s;
+}
+
+.selected::before {
+    border: none !important;
+}
+
+.frame ul li form {
+    width: 100%;
+    height: 100%;
+}
+
+.frame ul li form input {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+    border: 1px dashed #2e9cca;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+}
+
+.frame ul li:last-child {
+    max-width: 20rem;
+    margin-left: auto;
+}
+
+.logo {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+/* Removes the ugly blue outline */
+.no-focus-outline a:focus,
+.no-focus-outline button:focus {
+  outline: none;
+}

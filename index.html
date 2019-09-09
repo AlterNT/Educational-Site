@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Papercraft</title>
+    <meta name="description" content="Papercraft Tutorial">
+    <meta name="author" content="Nathan Phillis">
+    
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body class="no-focus-outline">
+    <!--Main Controller-->
+    <script type="module" src="js/index.js"></script>
+
+    <!--Frame-->
+    <header class="frame">
+        <!--Super Dodgy workaround here. Redo in future-->
+        <div onclick="pms.setPage('paper-homepage'); document.getElementById('Home').classList.add('selected'); tab.classList.remove('selected'); tab = getElementById('Home');">
+            <i class="material-icons logo">flip_to_front</i>
+            Papercraft Central
+        </div>        
+        <ul>
+            <li>
+                <button onclick="pms.setPage('paper-homepage'); setTab(event);" id="Home" class="selected">Home</button>
+            </li>
+            <li>
+                <button onclick="pms.setPage('paper-craft'); setTab(event);" id="Papercraft">Papercraft</button>
+            </li>
+            <!-- Cancelled Due to time constraints
+            <li>
+                <button onclick="pms.setPage('paper-forums'); setTab(event)" id="Forums">Forums</button>
+            </li>
+            -->
+            <li>
+                <button onclick="pms.setPage('paper-tips'); setTab(event);" id="Tips">Tips / FAQ</button>
+            </li>
+            <li>
+                <button onclick="pms.setPage('paper-tutorials'); setTab(event);" id="Tutorials">Tutorials</button>
+            </li>
+            <li>
+                <button onclick="pms.setPage('paper-about'); setTab(event)" id="About">About</button>
+            <li>
+                <form action="#" onsubmit="onSearch(event); setTab();">
+                    <input type="text" id="query" required maxlength="50" placeholder="Search">
+                </form>
+            </li>
+        </ul>
+    </header>
+</body>

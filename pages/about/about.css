@@ -1,0 +1,28 @@
+:host {
+    all: initial;
+    font-family: inherit;
+}
+
+.about {
+    margin-top: 2rem;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about h1 {
+    padding: 2rem;
+    width: fit-content;
+    box-shadow: 1px 1px 0 0 grey;
+    background-color: #aaabb8;
+}
+
+.about p {
+    padding: 2rem;
+    width: 80%;
+    box-shadow: 1px 1px 0 0 grey;
+    background-color: #aaabb8;
+}
