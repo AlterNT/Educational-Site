@@ -10,8 +10,11 @@ export class PaperSearch extends HTMLElement {
 
     init(query) {
         this.query = query;
-        let css = FileManagementSystem.loadFile("../../pages/search/search.css");
-        let html = FileManagementSystem.loadFile("../../pages/search/search.html")
+        let css = `:host {
+            all: initial;
+            font-family: inherit;
+        }`;
+        let html = `<h1 id="title">No Search Result</h1>`;
         let shadow = this.attachShadow({mode: 'open'});
         shadow.innerHTML = "<style>" + css + "</style>" + html;
         shadow.getElementById("title").innerText = "Search Results for: " + query;
