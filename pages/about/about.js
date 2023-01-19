@@ -45,7 +45,7 @@ export class PaperAbout extends HTMLElement {
             <br>
             Created By Nathan Phillis in 2019 for Applied Information Technology.
         </p>
-        <img src="https://nathanphillis.github.io/Educational-Site/src/images/meme.jpg">
+        <img src="./src/images/meme.jpg">
     </div>`;
         let shadow = this.attachShadow({mode: 'open'});
         shadow.innerHTML = "<style>" + css + "</style>" + html;
