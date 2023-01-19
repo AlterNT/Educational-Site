@@ -60,7 +60,7 @@ export class PaperCraft extends HTMLElement {
                 <th>Description:</th>
             </tr>
             <tr>
-                <td><a href="https://web.archive.org/web/20180802051052/https://global.yamaha-motor.com/showroom/papercraft/"><img src="https://nathanphillis.github.io/Educational-Site/src/images/sites/yamaha.png" draggable="false"></a></td>
+                <td><a href="https://web.archive.org/web/20180802051052/https://global.yamaha-motor.com/showroom/papercraft/"><img src="./src/images/sites/yamaha.png" draggable="false"></a></td>
                 <td>Yamaha Paper Models</td>
                 <td>
                     This website Primarily focuses on papercraft models of yamaha bikes. 
@@ -68,7 +68,7 @@ export class PaperCraft extends HTMLElement {
                 </td>
             </tr>
             <tr>
-                <td><a href="https://creativepark.canon/en/categories/CAT-ST01-0071/top.html"><img src="https://nathanphillis.github.io/Educational-Site/src/images/sites/canon.png" draggable="false"></a></td>
+                <td><a href="https://creativepark.canon/en/categories/CAT-ST01-0071/top.html"><img src="./src/images/sites/canon.png" draggable="false"></a></td>
                 <td>Canon Paper Models</td>
                 <td>
                     This website has a wide variety of clean, high quality designs to choose from.
@@ -76,7 +76,7 @@ export class PaperCraft extends HTMLElement {
                 </td>
             </tr>
             <tr>
-                <td><a href="http://www.papercraftmuseum.com/"><img src="https://nathanphillis.github.io/Educational-Site/src/images/sites/papercraftmuseum.png" draggable="false"></a></td>
+                <td><a href="http://www.papercraftmuseum.com/"><img src="./src/images/sites/papercraftmuseum.png" draggable="false"></a></td>
                 <td>Papercraft Museum</td>
                 <td>
                     This website is a catalog of papercraft templates made by the community.
@@ -85,7 +85,7 @@ export class PaperCraft extends HTMLElement {
                 </td>
             </tr>
             <tr>
-                <td><a href="http://paper-replika.com/"><img src="https://nathanphillis.github.io/Educational-Site/src/images/sites/paperreplika.png" draggable="false"></a></td>
+                <td><a href="http://paper-replika.com/"><img src="./src/images/sites/paperreplika.png" draggable="false"></a></td>
                 <td>Paper Replica</td>
                 <td>
                     This website is similar in format to papercraft museum and hence comes with
